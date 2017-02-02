@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.DirectoryServices;
@@ -58,6 +54,7 @@ namespace CreateWinUserPassword
                 var newLine = string.Format("{0};{1}", item.Name, item.Password);
                 csv.AppendLine(newLine);
             }
+            Clipboard.SetText(csv.ToString());
             File.WriteAllText(Environment.CurrentDirectory + "\\1.csv", csv.ToString());
         }
     }
