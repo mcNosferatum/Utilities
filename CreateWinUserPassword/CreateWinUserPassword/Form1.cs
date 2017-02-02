@@ -54,8 +54,11 @@ namespace CreateWinUserPassword
                 var newLine = string.Format("{0};{1}", item.Name, item.Password);
                 csv.AppendLine(newLine);
             }
+
             Clipboard.SetText(csv.ToString());
-            File.WriteAllText(Environment.CurrentDirectory + "\\1.csv", csv.ToString());
+            MessageBox.Show("Данные скопированы в буфер обмена!");
+            if(cbSaveToFile.Checked == true)
+                File.WriteAllText(Environment.CurrentDirectory + "\\1.csv", csv.ToString());
         }
     }
 
