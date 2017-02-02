@@ -1,0 +1,8 @@
+D:\Projects\mp3makerStudio\mp3makerStudio\bin\Debug\mp3makerStudio.exe
+D:\Projects\mp3makerStudio\mp3makerStudio\bin\Debug\mp3makerStudio.pdb
+D:\Projects\mp3makerStudio\mp3makerStudio\obj\x86\Debug\mp3makerStudio.csprojResolveAssemblyReference.cache
+D:\Projects\mp3makerStudio\mp3makerStudio\obj\x86\Debug\mp3makerStudio.Form1.resources
+D:\Projects\mp3makerStudio\mp3makerStudio\obj\x86\Debug\mp3makerStudio.Properties.Resources.resources
+D:\Projects\mp3makerStudio\mp3makerStudio\obj\x86\Debug\mp3makerStudio.csproj.GenerateResource.Cache
+D:\Projects\mp3makerStudio\mp3makerStudio\obj\x86\Debug\mp3makerStudio.exe
+D:\Projects\mp3makerStudio\mp3makerStudio\obj\x86\Debug\mp3makerStudio.pdb
